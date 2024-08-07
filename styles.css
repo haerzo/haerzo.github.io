@@ -10,7 +10,7 @@ body {
 }
 
 .center-image {
-    margin-top: 20px; /* Adjust the top margin as needed */
+    margin-top: 10px; /* Adjust the top margin as needed */
     width: auto; /* Adjust the width as needed */
     max-width: 100%; /* Ensure the image doesn't overflow */
 }
