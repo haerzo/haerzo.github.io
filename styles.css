@@ -1,12 +1,15 @@
 body {
     background-color: #121212;
     color: white; /* Optional: change text color to ensure it's readable */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    margin: 0;
 }
 
 .center-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px; /* Optional: adjust the top margin as needed */
+    margin-top: 20px; /* Adjust the top margin as needed */
     width: 50%; /* Optional: adjust the width as needed */
 }
