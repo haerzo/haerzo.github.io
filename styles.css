@@ -1,4 +1,12 @@
 body {
-    background-color: #010101;
+    background-color: #121212;
     color: white; /* Optional: change text color to ensure it's readable */
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px; /* Optional: adjust the top margin as needed */
+    width: 50%; /* Optional: adjust the width as needed */
 }
