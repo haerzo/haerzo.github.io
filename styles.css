@@ -15,8 +15,8 @@ body {
     max-width: 100%; /* Ensure the image doesn't overflow */
 }
 
-.ibm-plex-mono-extralight {
+.ibm-plex-mono-thin {
   font-family: "IBM Plex Mono", monospace;
-  font-weight: 200;
+  font-weight: 100;
   font-style: normal;
 }
