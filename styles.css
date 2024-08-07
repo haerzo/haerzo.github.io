@@ -15,7 +15,8 @@ body {
     max-width: 100%; /* Ensure the image doesn't overflow */
 }
 
-h1 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+.ibm-plex-mono-extralight {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 200;
+  font-style: normal;
 }
