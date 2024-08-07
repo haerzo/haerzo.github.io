@@ -15,8 +15,11 @@ body {
     max-width: 100%; /* Ensure the image doesn't overflow */
 }
 
-.ibm-plex-mono-thin {
-  font-family: "IBM Plex Mono", monospace;
+// <uniquifier>: Use a unique and descriptive class name
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
 }
