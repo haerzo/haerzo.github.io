@@ -10,9 +10,9 @@ body {
 }
 
 .center-image {
-    margin-top: 10px;
+    margin-top: 20px;
     width: auto;
-    max-width: 50%;
+    max-width: 100%;
 }
 
 .ibm-plex-mono-thin {
