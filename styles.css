@@ -15,8 +15,11 @@ body {
     max-width: 100%;
 }
 
-.ibm-plex-mono-thin {
-  font-family: "IBM Plex Mono", monospace;
-  font-weight: 100;
-  font-style: normal;
+.image-container {
+    display: flex;
+    justify-content: center; /* centers the images horizontally */
+}
+
+.inline-image {
+    margin: 0 10px; /* adds a little space between the images */
 }
