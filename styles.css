@@ -12,7 +12,7 @@ body {
 .center-image {
     margin-top: 20px;
     width: 50px; /* Set this to your desired width */
-    height: auto; /* Maintain aspect ratio */
+    height: 50px; /* Maintain aspect ratio */
     max-width: 100%; /* Ensure it doesn't overflow */
 }
 
