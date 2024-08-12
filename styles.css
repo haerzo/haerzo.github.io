@@ -11,9 +11,11 @@ body {
 
 .center-image {
     margin-top: 20px;
-    width: auto;
-    max-width: 100%;
+    width: 150px; /* Set this to your desired width */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure it doesn't overflow */
 }
+
 
 .image-container {
     display: flex;
