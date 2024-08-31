@@ -24,8 +24,9 @@ body {
 }
 
 .centered-image {
-    width: 100px;  /* Adjust this value to make the roblox.png image smaller */
-    height: auto;  /* Maintain aspect ratio */
+    width: 100px;    /* Adjust this value to make the images smaller */
+    height: auto;    /* Maintain aspect ratio */
+    margin: 0 20px;  /* Add horizontal space between the images */
 }
 
 .image-container {
