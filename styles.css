@@ -17,6 +17,7 @@ body {
 }
 
 .center-image-container {
+    margin-top: -10px; /* Reduce the space above roblox.png */
     display: flex;
     justify-content: center; /* Centers horizontally */
     align-items: center;     /* Centers vertically */
@@ -24,15 +25,16 @@ body {
 }
 
 .centered-image {
-    width: 100px;   /* Adjust size as needed */
-    height: auto;   /* Maintain aspect ratio */
+    width: 100px;  /* Adjust this value to make roblox.png smaller */
+    height: auto;  /* Maintain aspect ratio */
 }
 
 .image-container {
     display: flex;
-    justify-content: center; /* centers the images horizontally */
+    justify-content: center; /* Centers horizontally */
+    margin-bottom: -10px;    /* Reduce space below scream-if.gif */
 }
 
 .inline-image {
-    margin: 0 25px; /* adds a little space between the images */
+    margin: 0 25px; /* Adds a little space between images */
 }
