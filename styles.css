@@ -11,9 +11,21 @@ body {
 
 .center-image {
     margin-top: 20px;
-    width: 300px; /* Set this to your desired width */
+    width: 150px; /* Set this to your desired width */
     height: auto; /* Maintain aspect ratio */
     max-width: 100%; /* Ensure it doesn't overflow */
+}
+
+.center-image-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+    height: 100vh;           /* Full viewport height to center vertically */
+}
+
+.centered-image {
+    width: 150px;   /* Adjust size as needed */
+    height: auto;   /* Maintain aspect ratio */
 }
 
 .image-container {
