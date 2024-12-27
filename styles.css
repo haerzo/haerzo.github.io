@@ -1,3 +1,6 @@
+/* Base Styles */
+
+/* Body setup */
 body {
     background-color: #121212;
     color: white;
@@ -9,6 +12,7 @@ body {
     align-items: center;
 }
 
+/* Centered main image */
 .center-image {
     margin-top: 20px;
     width: 150px; /* Set this to your desired width */
@@ -16,6 +20,7 @@ body {
     max-width: 100%; /* Ensure it doesn't overflow */
 }
 
+/* Container for center images (social media links) */
 .center-image-container {
     display: flex;
     justify-content: center; /* Centers horizontally */
@@ -23,17 +28,67 @@ body {
     height: 100vh;           /* Full viewport height to center vertically */
 }
 
+/* Individual centered images (social media icons) */
 .centered-image {
     width: 100px;    /* Adjust this value to make the images smaller */
     height: auto;    /* Maintain aspect ratio */
     margin: 0 40px;  /* Increased horizontal space between the images */
 }
 
+/* Container for inline image (Turkey image) */
 .image-container {
     display: flex;
     justify-content: center; /* centers the images horizontally */
 }
 
+/* Inline image (Turkey image) */
 .inline-image {
     margin: 0 25px; /* adds a little space between the images */
+}
+
+/* Mobile-specific styles using media queries */
+
+/* Adjust for tablets and smaller devices (width <= 768px) */
+@media (max-width: 768px) {
+    .center-image {
+        width: 120px;  /* Adjust for smaller screens */
+    }
+
+    .centered-image {
+        width: 80px;  /* Smaller icons for mobile */
+        margin: 0 15px; /* Reduce horizontal space between icons */
+    }
+
+    /* Adjust the layout for the image container */
+    .center-image-container {
+        flex-direction: column; /* Stack images vertically */
+        height: auto;            /* Allow container to adjust based on content */
+    }
+
+    /* Adjust inline image container for smaller screens */
+    .image-container {
+        flex-direction: column; /* Stack the inline image vertically */
+    }
+
+    .inline-image {
+        margin: 10px 0; /* Add space between the inline images */
+    }
+}
+
+/* Further adjustments for very small screens (width <= 480px) */
+@media (max-width: 480px) {
+    .center-image {
+        width: 100px; /* Further reduce image size */
+    }
+
+    .centered-image {
+        width: 70px; /* Make social media icons even smaller */
+        margin: 0 10px; /* Tighter space between icons */
+    }
+
+    /* Center the image container to fit content */
+    .center-image-container {
+        flex-direction: column; /* Ensure images are stacked vertically */
+        padding: 10px; /* Add some padding for a more mobile-friendly layout */
+    }
 }
