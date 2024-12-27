@@ -46,6 +46,22 @@ body {
     margin: 0 25px; /* adds a little space between the images */
 }
 
+/* Styling for the "Haerzo's Favorite Songs" link */
+.songs-link {
+    display: block;
+    margin-top: 10px; /* Space between the image and the text */
+    color: white; /* Make the text white */
+    font-size: 18px; /* Adjust font size */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make text bold */
+    transition: color 0.3s ease; /* Smooth color change on hover */
+}
+
+/* Add a hover effect */
+.songs-link:hover {
+    color: #ff6347; /* Change text color when hovered (you can pick any color you like) */
+}
+
 /* Mobile-specific styles using media queries */
 
 /* Adjust for tablets and smaller devices (width <= 768px) */
