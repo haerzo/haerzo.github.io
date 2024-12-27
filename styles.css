@@ -20,36 +20,28 @@ body {
     max-width: 100%; /* Ensure it doesn't overflow */
 }
 
-/* Container for center images (social media links) */
+/* Social media icons container */
 .center-image-container {
     display: flex;
     justify-content: center; /* Centers horizontally */
     align-items: center;     /* Centers vertically */
-    height: 100vh;           /* Full viewport height to center vertically */
+    margin-top: 50px; /* Space below the main image */
 }
 
-/* Individual centered images (social media icons) */
+/* Individual social media icons */
 .centered-image {
     width: 100px;    /* Adjust this value to make the images smaller */
     height: auto;    /* Maintain aspect ratio */
     margin: 0 40px;  /* Increased horizontal space between the images */
 }
 
-/* Container for inline image (Turkey image) */
-.image-container {
-    display: flex;
-    justify-content: center; /* centers the images horizontally */
-}
-
-/* Inline image (Turkey image) */
-.inline-image {
-    margin: 0 25px; /* adds a little space between the images */
+/* Songs link container to position the text */
+.songs-link-container {
+    margin-top: 20px; /* Space between icons and text */
 }
 
 /* Styling for the "Haerzo's Favorite Songs" link */
 .songs-link {
-    display: block;
-    margin-top: 10px; /* Space between the image and the text */
     color: white; /* Make the text white */
     font-size: 18px; /* Adjust font size */
     text-decoration: none; /* Remove underline */
@@ -60,6 +52,18 @@ body {
 /* Add a hover effect */
 .songs-link:hover {
     color: #ff6347; /* Change text color when hovered (you can pick any color you like) */
+}
+
+/* Inline image container */
+.image-container {
+    display: flex;
+    justify-content: center; /* Centers the images horizontally */
+    margin-top: 50px; /* Add space between the text and the inline image */
+}
+
+/* Inline image */
+.inline-image {
+    margin: 0 25px; /* Adds a little space between the images */
 }
 
 /* Mobile-specific styles using media queries */
@@ -79,6 +83,11 @@ body {
     .center-image-container {
         flex-direction: column; /* Stack images vertically */
         height: auto;            /* Allow container to adjust based on content */
+    }
+
+    /* Songs link container */
+    .songs-link-container {
+        margin-top: 15px;
     }
 
     /* Adjust inline image container for smaller screens */
@@ -106,5 +115,9 @@ body {
     .center-image-container {
         flex-direction: column; /* Ensure images are stacked vertically */
         padding: 10px; /* Add some padding for a more mobile-friendly layout */
+    }
+
+    .songs-link-container {
+        margin-top: 10px; /* Adjust spacing for smaller screens */
     }
 }
